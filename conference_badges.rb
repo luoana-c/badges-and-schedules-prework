@@ -20,11 +20,11 @@ def assign_rooms(array)
     rooms
 end
 
-def printer
-  for badge in batch_badge_creator(array_names)
+def printer(attendees)
+  for badge in batch_badge_creator(attendees)
     puts badge 
   end 
-  for room in assign_rooms(array)
+  for room in assign_rooms(attendees)
     puts room
   end 
 end
