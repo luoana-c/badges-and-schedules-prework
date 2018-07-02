@@ -17,11 +17,12 @@ def assign_rooms(array)
     assignment = "Hello, #{name}! You'll be assigned to room #{index + 1}!"
     rooms.push(assignment)
   end
-    assignment
+    rooms
 end
 
 def printer
-  
+  for badge in batch_badge_creator(array_names)
+    puts badge
 end
 
 #rooms = (1..7).to_a
