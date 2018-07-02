@@ -12,7 +12,7 @@ def batch_badge_creator(array_names)
 end
 
 def assign_rooms(array)
-  
+  array.each_with_index 
     assignment = "Hello, "
   
 end
