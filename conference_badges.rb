@@ -29,5 +29,3 @@ def printer(attendees)
   end 
 end
 
-#rooms = (1..7).to_a
- # room_assignments = []
