@@ -22,7 +22,11 @@ end
 
 def printer
   for badge in batch_badge_creator(array_names)
-    puts badge
+    puts badge 
+  end 
+  for room in assign_rooms(array)
+    puts room
+  end 
 end
 
 #rooms = (1..7).to_a
